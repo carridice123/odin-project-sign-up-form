@@ -28,7 +28,7 @@
     font-family: Norse-Bold, sans-serif;
 
 
-    width: 40vw;
+    width: 35vw;
     
 
   }
@@ -39,4 +39,55 @@
     width: 50vw;
   }
 
-  
+  .div-1 {
+    height: 30vh;
+    display: flex; 
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #ffe;
+
+
+  }
+
+  .div-2 {
+    height: 35vh;
+    display: flex;
+   
+
+}
+
+.div-3 {
+    height: 30vh;
+
+}            
+
+.form-main {
+    display: flex;
+    flex-direction: row;
+}
+
+.first-prt {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.prt1 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.prt2 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.prt3 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
