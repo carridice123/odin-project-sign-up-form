@@ -8,13 +8,16 @@
   body {
     margin: 0;
     padding: 0;
+    font-family: Norse-Bold, sans-serif;
+    height: 100hv;
+
   }
   
   .main {
     display: flex;
     flex-direction: row;
     width: 100vw;
-    height: 100vh;
+    height: 130vh;
 
     
   }
@@ -29,7 +32,10 @@
 
 
     width: 35vw;
-    
+    height: 100hv;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
   }
 
@@ -45,31 +51,54 @@
     justify-content: center;
     align-items: flex-end;
     background-color: #ffe;
+    margin-right: 130px;
+    
+
 
 
   }
 
   .div-2 {
-    height: 35vh;
+    height: 40vh;
     display: flex;
+    box-shadow: 2px 5px #E5E7EB;
+
+    
+  
    
 
 }
 
 .div-3 {
-    height: 30vh;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+     margin-left: 50px;
+     margin-top: 30px;
+ 
 
+
+                
 }            
 
+                
 .form-main {
     display: flex;
     flex-direction: row;
+    gap: 55px;
+   
+    
 }
 
 .first-prt {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 25px;
+    justify-content: center;
+    margin-left: 50px;
+   
+    
+  
 }
 
 .prt1 {
@@ -89,5 +118,104 @@
     flex-direction: column;
 
 }
+.prt4 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.prt5 {
+    display: flex;
+    flex-direction: column;
+
+}
+.prt6 {
+    display: flex;
+    flex-direction: column;
+
+}
 
 
+
+.second-prt {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    margin-left: 50px;
+    margin-bottom: 15px;
+   
+    
+  
+}
+
+button {
+    background-color: #596D48;
+    color: white;
+    border-radius: .4rem;
+    height: 2.5rem;
+    width: 13rem;
+   padding-bottom: 50px;
+}
+
+input {
+    height: 1.5rem;
+    width: 240px;
+    
+}
+
+
+input:focus {
+    border: 3px solid blue;
+}
+
+input:invalid {
+    border: 1.3px solid red;
+}
+
+#error {
+    color: red;
+    font-size: 13px;
+    margin: 2px;
+}
+
+
+.footer-link {
+    color: white;
+
+}
+.forimage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:100hv;
+    margin-top: 150px;
+    
+
+    
+    background-color: black;
+    opacity: 0.4;
+   
+    
+}
+.semi-transparent {
+    
+  
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+
+    
+    
+   
+}
+
+.right-footer {
+    display: flex;
+    flex-direction: column;
+    height: 20hv;
+    width: 100%;
+    background-color: black;
+}

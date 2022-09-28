@@ -11,33 +11,44 @@
 <body>
     <div class="main">
         <div class="left">
-            <h1>HI</h1>
+           <div class="forimage">
+            <div class="semi-transparent">
+                <img src="./images/odin-lined.png" alt="Odin logo" height="100px">
+                <h1 class="my-font">ODIN</h1>
+            </div>
+           </div>
+
+            <div class="right-footer">
+                <p>Photo by <a href="#" class="footer-link">Hale West</a> on <a href="https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" class="footer-link">Unsplash</a></p>
+            </div>
+          
         </div>
 
         <div class="right">
            <div class="div-1">
              <h2>This is the complete online course for<br>
-                the Odin Project.<br>Remember the sooner you start, this journey<br>the faster you will land your 
+                the Odin Project.<br>Remember the sooner you start the <br>faster you land your 
                 dream job<br><em>sign up now</em>
              </h2>
            </div>
            <div class="div-2">
             <form action="" method="get" class="form-main">
                 <div class="first-prt">
-                    <h3>Start Here</h3>
+                   
                     <div class="prt1">
-                       <label for="fisrt-name">First Name</label>
+                       <label for="fisrt-name">*First Name</label>
                        <input type="text" id="first-name" name="first-name">
                     </div>
 
                     <div class="prt2">
-                        <label for="email-com">Email</label>
+                        <label for="email-com">*Email</label>
                         <input type="Email" id="email-com" name="email-com">
                      </div>
 
                      <div class="prt3">
-                        <label for="password">Password</label>
-                        <input type="password" id="password" name="password">
+                        <label for="password">*Password</label>
+                        <input type="password" id="password" name="password" required>
+                        <p id="error"></p>
                      </div>
                      
 
@@ -46,11 +57,47 @@
                 </div>
 
 
+                <div class="second-prt">
+                   
+                    <div class="prt4">
+                       <label for="last-name">*Last Name</label>
+                       <input type="text" id="last-name" name="last-name">
+                    </div>
+
+                    <div class="prt5">
+                        <label for="phone-number">Phone-Number</label>
+                        <input type="tel" id="phone-number" name="phone-number">
+                     </div>
+
+                     <div class="prt6">
+                        <label for="confirm-password">*Confirm Password</label>
+                        <input type="password" id="confirm-password" name="confirm-password" required>
+                     </div>
+                     
+
+                
+                    
+                </div>
+                
+
+
 
 
             </form>
         </div>
-           <div class="div-3">third</div>
+           <div class="div-3">
+            <div class="buttan">
+                <button type="submit"><h3>Create Account</h3></button>
+            </div>
+
+            <div class="foot-text">
+                <h4>Already have an account? <a href="#">log in here.</a>
+                </h4>
+            </div>
+
+
+
+           </div>
         </div>
     </div>
 
